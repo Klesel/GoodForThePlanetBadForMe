@@ -1,0 +1,905 @@
+{
+  "title": {
+    "default": "Questionnaire",
+    "de": "Umfrage"
+  },
+  "autoFocusFirstQuestion": true,
+  "completedHtml": {
+    "default": "<h3>Thank you for your participation!</h3><h4>About the experiment:</h4><p>This study is part of a bachelor's thesis and investigates the influence of information about the energy efficiency of AI models on user decisions. In this experiment, all participants interacted with an AI, meaning there was no control group without an AI. Furthermore, the AI models presented for selection were identical in their functionality; only the description of the models was different. Your data contributes significantly to a better understanding of these dynamics. Thank you for your valuable contribution to our research!</p></div><div style=\"text-align: center; margin-top: 20px;\"><a href=\"https://app.prolific.com/submissions/complete?cc=C15QG034\" class=\"btn btn-primary\" style=\"color: white;\">Back to Prolific</a></div>",
+    "de": "<h3>Vielen Dank für Ihre Teilnahme!</h3><h4>Aufklärung über das Experiment:</h4><p>Diese Studie ist Teil einer Bachelorarbeit und untersucht den Einfluss von Informationen über die Energieeffizienz von KI-Modellen auf Nutzerentscheidungen. In diesem Experiment haben alle Teilnehmenden mit einer KI interagiert, es gab also keine Kontrollgruppe ohne KI. Zudem waren die zur Auswahl gestellten KI-Modelle in ihrer Funktionsweise identisch; lediglich die Beschreibung der Modelle war unterschiedlich. Ihre Daten tragen maßgeblich zu einem besseren Verständnis dieser Dynamiken bei. Vielen Dank für Ihren wertvollen Beitrag zu unserer Forschung!</p></div><div style=\"text-align: center; margin-top: 20px;\"><a href=\"https://app.prolific.com/submissions/complete?cc=C15QG034\" class=\"btn btn-primary\" style=\"color: white;\">Zurück zu Prolific</a></div>"
+  },
+  "pages": [
+    {
+      "name": "page1",
+      "description": {
+        "default": "The following questions relate to your experience with the chatbot in general. ",
+        "de": "Die folgenden Fragen beziehen sich auf Ihre Erfahrungen mit dem Chatbot im Allgemeinen.\n"
+      },
+      "questionOrder": "random",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "RES1",
+          "title": {
+            "default": "\n",
+            "de": "Wie zufrieden sind Sie mit der erarbeiteten Reise?\n"
+          },
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "columns": [
+            {
+              "value": "1",
+              "text": {
+                "default": "1:<br>Very dissatisfied",
+                "de": "1:<br>Sehr unzufrieden"
+              }
+            },
+            {
+              "value": "2",
+              "text": {
+                "default": "Dissatisfied",
+                "de": "Unzufrieden"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "Somewhat dissatisfied",
+                "de": "Eher unzufrieden"
+              }
+            },
+            {
+              "value": "4",
+              "text": "4:<br>Neutral"
+            },
+            {
+              "value": "5",
+              "text": {
+                "default": "Somewhat satisfied",
+                "de": "Eher zufrieden"
+              }
+            },
+            {
+              "value": "6",
+              "text": {
+                "default": "Satisfied",
+                "de": "Zufrieden"
+              }
+            },
+            {
+              "value": "7",
+              "text": {
+                "default": "7:<br>Very satisfied",
+                "de": "7:<br>Sehr zufrieden"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "RES1",
+              "text": {
+                "default": "How satisfied are you with the trip you have created?",
+                "de": "Wie zufrieden sind Sie mit der erarbeiteten Reise?"
+              }
+            }
+          ],
+          "rowOrder": "random"
+        },
+        {
+          "type": "matrix",
+          "name": "RES3",
+          "title": "\n",
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "columns": [
+            {
+              "value": "1",
+              "text": {
+                "default": "1:<br>Not at all",
+                "de": "1:<br>Überhaupt nicht"
+              }
+            },
+            {
+              "value": "2",
+              "text": {
+                "default": "Very little",
+                "de": "Sehr wenig"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "A little",
+                "de": "Ein wenig"
+              }
+            },
+            {
+              "value": "4",
+              "text": {
+                "default": "4:<br>Somewhat",
+                "de": "4:<br>Mäßig"
+              }
+            },
+            {
+              "value": "5",
+              "text": {
+                "default": "Quite a bit",
+                "de": "Ziemlich viel"
+              }
+            },
+            {
+              "value": "6",
+              "text": {
+                "default": "A lot",
+                "de": "Viel "
+              }
+            },
+            {
+              "value": "7",
+              "text": {
+                "default": "7:<br>I contributed the most to the plan",
+                "de": "7:<br>Ich habe den größten Teil beigetragen"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "RES3",
+              "text": {
+                "default": "How much did you contribute to the final trip plan?",
+                "de": "Wie groß schätzen Sie Ihren persönlichen Anteil am Ergebnis der Reiseplanung ein?"
+              }
+            }
+          ],
+          "rowOrder": "random"
+        },
+        {
+          "type": "matrix",
+          "name": "EXP",
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "alternateRows": true,
+          "columns": [
+            {
+              "value": 1,
+              "text": {
+                "default": "1:<br>Strongly disagree",
+                "de": "1:<br>Stimme überhaupt nicht zu"
+              }
+            },
+            {
+              "value": 2,
+              "text": {
+                "default": "Disagree",
+                "de": "Stimme nicht zu"
+              }
+            },
+            {
+              "value": 3,
+              "text": {
+                "default": "Somewhat disagree",
+                "de": "Stimme eher nicht zu"
+              }
+            },
+            {
+              "value": 4,
+              "text": {
+                "default": "4:<br>Neutral",
+                "de": "4<br>Neutral"
+              }
+            },
+            {
+              "value": 5,
+              "text": {
+                "default": "Somewhat agree",
+                "de": "Stimme eher zu"
+              }
+            },
+            {
+              "value": 6,
+              "text": {
+                "default": "Agree",
+                "de": "Stimme zu"
+              }
+            },
+            {
+              "value": 7,
+              "text": {
+                "default": "7:<br>Strongly agree",
+                "de": "7<br>Stimme voll und ganz zu"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "EXP1",
+              "text": {
+                "default": "I have experience in planning vacations.",
+                "de": " Ich habe Erfahrung in der Planung von Urlauben."
+              }
+            },
+            {
+              "value": "EXP2",
+              "text": {
+                "default": "I have previously used AI to support vacation planning.",
+                "de": "Ich habe bereits KI zur Unterstützung bei der Urlaubsplanung eingesetzt."
+              }
+            }
+          ],
+          "rowOrder": "random",
+          "isAllRowRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page_satisfaction_and_experience",
+      "description": {
+        "default": "The following questions relate to your experience with the chatbot in general. ",
+        "de": "Die folgenden Fragen beziehen sich auf Ihre Erfahrungen mit dem Chatbot im Allgemeinen.\n"
+      },
+      "questionOrder": "random",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "SAT1",
+          "title": {
+            "de": "Wie zufrieden sind Sie mit der erarbeiteten Reise?"
+          },
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "columns": [
+            {
+              "value": "1",
+              "text": {
+                "default": "1:<br>Very dissatisfied",
+                "de": "1:<br>Sehr unzufrieden"
+              }
+            },
+            {
+              "value": "2",
+              "text": {
+                "default": "Dissatisfied",
+                "de": "Unzufrieden"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "Somewhat dissatisfied",
+                "de": "Eher unzufrieden"
+              }
+            },
+            {
+              "value": "4",
+              "text": "4:<br>Neutral"
+            },
+            {
+              "value": "5",
+              "text": {
+                "default": "Somewhat satisfied",
+                "de": "Eher zufrieden"
+              }
+            },
+            {
+              "value": "6",
+              "text": {
+                "default": "Satisfied",
+                "de": "Zufrieden"
+              }
+            },
+            {
+              "value": "7",
+              "text": {
+                "default": "7:<br>Very satisfied",
+                "de": "7:<br>Sehr zufrieden"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "SAT1",
+              "text": {
+                "default": "How satisfied were you overall with the interaction with the chatbot during the planning?",
+                "de": "Wie zufrieden waren Sie insgesamt mit der Interaktion mit dem Chatbot während der Planung?"
+              }
+            }
+          ],
+          "rowOrder": "random"
+        },
+        {
+          "type": "matrix",
+          "name": "SAT2",
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "columns": [
+            {
+              "value": "1",
+              "text": {
+                "default": "1:<br>Very poor",
+                "de": "1:<br>Sehr schlecht"
+              }
+            },
+            {
+              "value": "2",
+              "text": {
+                "default": "Poor",
+                "de": "Schlecht"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "Fair",
+                "de": "Ausreichend"
+              }
+            },
+            {
+              "value": "4",
+              "text": {
+                "default": "4:<br>Good",
+                "de": "4:<br>Gut"
+              }
+            },
+            {
+              "value": "5",
+              "text": {
+                "default": "Very good",
+                "de": "Sehr gut"
+              }
+            },
+            {
+              "value": "6",
+              "text": {
+                "default": "Excellent",
+                "de": "Exzellent"
+              }
+            },
+            {
+              "value": "7",
+              "text": {
+                "default": "7:<br>Exceptional ",
+                "de": "7:<br>Außergewöhnlich"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "SAT2",
+              "text": {
+                "default": "How good were the responses from the chatbot?",
+                "de": "Wie gut waren die Antworten des Chatbots?"
+              }
+            },
+            {
+              "value": "SAT3",
+              "text": {
+                "default": "How was the quality of interaction with the chatbot?",
+                "de": "Wie war die Qualität der Interaktion mit dem Chatbot?"
+              }
+            }
+          ],
+          "rowOrder": "random",
+          "isAllRowRequired": true
+        },
+        {
+          "type": "matrix",
+          "name": "KNOWLEDGE",
+          "title": {
+            "de": "Wie zufrieden sind Sie mit der erarbeiteten Reise?"
+          },
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "columns": [
+            {
+              "value": "1",
+              "text": {
+                "default": "1:<br>Much less knowledgeable",
+                "de": "1:<br>Viel geringeres Wissen"
+              }
+            },
+            {
+              "value": "2",
+              "text": {
+                "default": "Less knowledgeable",
+                "de": "Weniger Wissen"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "Slightly lees knowledgeable",
+                "de": "Etwas weniger Wissen"
+              }
+            },
+            {
+              "value": "4",
+              "text": {
+                "default": "4:<br>Equally knowledgeable",
+                "de": "4: <br>Gleich viel Wissen"
+              }
+            },
+            {
+              "value": "5",
+              "text": {
+                "default": "Slightly more knowledgeable",
+                "de": "Etwas mehr Wissen"
+              }
+            },
+            {
+              "value": "6",
+              "text": {
+                "default": "More knowledgeable",
+                "de": "Mehr Wissen"
+              }
+            },
+            {
+              "value": "7",
+              "text": {
+                "default": "7:<br>Much more knowledgeable",
+                "de": "7:<br>Weit mehr Wissen"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "KNOWLEDGE",
+              "text": {
+                "default": "Compared to the average German, how knowledgeable are you about AI?",
+                "de": "Wie gut kennen Sie sich im Vergleich zum Durchschnittsdeutschen mit KI aus?"
+              }
+            }
+          ],
+          "rowOrder": "random"
+        },
+        {
+          "type": "matrix",
+          "name": "QUAL",
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "alternateRows": true,
+          "columns": [
+            {
+              "value": 1,
+              "text": {
+                "default": "1:<br>Strongly disagree",
+                "de": "1<br>Stimme überhaupt nicht zu"
+              }
+            },
+            {
+              "value": 2,
+              "text": {
+                "default": "Disagree",
+                "de": "Stimme nicht zu"
+              }
+            },
+            {
+              "value": 3,
+              "text": {
+                "default": "Somewhat disagree",
+                "de": "Stimme eher nicht zu"
+              }
+            },
+            {
+              "value": 4,
+              "text": {
+                "default": "4:<br>Neutral",
+                "de": "4<br>Neutral"
+              }
+            },
+            {
+              "value": 5,
+              "text": {
+                "default": "Somewhat agree",
+                "de": "Stimme eher zu"
+              }
+            },
+            {
+              "value": 6,
+              "text": {
+                "default": "Agree",
+                "de": "Stimme zu"
+              }
+            },
+            {
+              "value": 7,
+              "text": {
+                "default": "7:<br>Strongly agree",
+                "de": "7<br>Stimme voll und ganz zu"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "QUAL1",
+              "text": {
+                "default": "The responses of the chatbot were always accurate.",
+                "de": "Die Antworten des Chatbots waren stets präzise."
+              }
+            },
+            {
+              "value": "QUAL2",
+              "text": {
+                "default": "The responses of the chatbot were always correct.",
+                "de": "Die Antwort des Chatbots war immer korrekt."
+              }
+            },
+            {
+              "value": "QUAL3",
+              "text": {
+                "default": "The responses of the chatbot were always reliable.",
+                "de": "Die Antwort des Chatbots war immer zuverlässig."
+              }
+            }
+          ],
+          "rowOrder": "random",
+          "isAllRowRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page_environmental",
+      "description": {
+        "default": "The following questions relate to your personal preferences, attitudes, and behaviors.\r\n",
+        "de": "Die folgenden Fragen beziehen sich auf Ihre persönlichen Präferenzen, Einstellungen und Verhaltensweisen."
+      },
+      "questionOrder": "random",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "Environmental",
+          "titleLocation": "hidden",
+          "isRequired": true,
+          "alternateRows": true,
+          "columns": [
+            {
+              "value": 1,
+              "text": {
+                "default": "1:<br>Strongly disagree",
+                "de": "1<br>Stimme überhaupt nicht zu"
+              }
+            },
+            {
+              "value": 2,
+              "text": {
+                "default": "Disagree",
+                "de": "Stimme nicht zu"
+              }
+            },
+            {
+              "value": 3,
+              "text": {
+                "default": "Somewhat disagree",
+                "de": "Stimme eher nicht zu"
+              }
+            },
+            {
+              "value": 4,
+              "text": {
+                "default": "4:<br>Neutral",
+                "de": "4<br>Neutral"
+              }
+            },
+            {
+              "value": 5,
+              "text": {
+                "default": "Somewhat agree",
+                "de": "Stimme eher zu"
+              }
+            },
+            {
+              "value": 6,
+              "text": {
+                "default": "Agree",
+                "de": "Stimme zu"
+              }
+            },
+            {
+              "value": 7,
+              "text": {
+                "default": "7:<br>Strongly agree",
+                "de": "7<br>Stimme voll und ganz zu"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "PEA1",
+              "text": {
+                "default": "I feel responsible to save resources whenever possible.",
+                "de": "Ich fühle mich verantwortlich, Ressourcen zu sparen, wann immer es möglich ist."
+              }
+            },
+            {
+              "value": "PEA2",
+              "text": {
+                "default": "I feel responsible to reduce energy consumption whenever possible.",
+                "de": "Ich fühle mich verantwortlich, den Energieverbrauch zu senken, wann immer es möglich ist."
+              }
+            },
+            {
+              "value": "PEA3",
+              "text": {
+                "default": "I feel responsible to consider the environmental effects of my work whenever possible.",
+                "de": "Ich fühle mich dafür verantwortlich, die Auswirkungen meiner Arbeit auf die Umwelt so weit wie möglich zu berücksichtigen."
+              }
+            },
+            {
+              "value": "PEB1",
+              "text": {
+                "default": "I recycle my plastic bottles, cans, and other containers.",
+                "de": "Ich recycle meine Plastikflaschen, Dosen und andere Behälter."
+              }
+            },
+            {
+              "value": "PEB2",
+              "text": {
+                "default": "I use scrap paper for notes instead of fresh paper.",
+                "de": "Ich verwende Altpapier für Notizen anstelle von neuem Papier."
+              }
+            },
+            {
+              "value": "PEB3",
+              "text": {
+                "default": "I turn off the lights in a vacant room.",
+                "de": "Ich schalte das Licht in einem leeren Raum aus."
+              }
+            },
+            {
+              "value": "PEB4",
+              "text": {
+                "default": "I power down all desk electronics at the end of the day.",
+                "de": "Ich schalte am Ende des Tages alle elektronischen Geräte auf dem Schreibtisch aus."
+              }
+            }
+          ],
+          "rowOrder": "random",
+          "isAllRowRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page_demographics_and_final",
+      "description": {
+        "default": "The following questions relate to demographics and general information.\r\n",
+        "de": "Die folgenden Fragen beziehen sich auf demografische und allgemeine Informationen.\n"
+      },
+      "questionOrder": "random",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Age",
+          "title": {
+            "default": "Age",
+            "de": "Alter"
+          },
+          "inputType": "number",
+          "min": 18,
+          "max": 100,
+          "step": 1
+        },
+        {
+          "type": "dropdown",
+          "name": "Gender",
+          "title": {
+            "default": "How do you currently describe your gender identity?\r\n",
+            "de": "Wie beschreiben Sie Ihre Geschlechtsidentität?"
+          },
+          "choices": [
+            {
+              "value": "Woman",
+              "text": {
+                "default": "Woman",
+                "de": "Frau"
+              }
+            },
+            {
+              "value": "Man",
+              "text": {
+                "default": "Man",
+                "de": "Mann"
+              }
+            },
+            {
+              "value": "Nonbinary",
+              "text": {
+                "default": "Non-binary",
+                "de": "Nicht-binär"
+              }
+            },
+            {
+              "value": "Genderqueer",
+              "text": {
+                "default": "Genderqueer",
+                "de": "Genderqueer"
+              }
+            },
+            {
+              "value": "NA",
+              "text": {
+                "default": "Prefer not to say",
+                "de": "Möchte ich nicht sagen"
+              }
+            }
+          ],
+          "choicesOrder": "random"
+        },
+        {
+          "type": "dropdown",
+          "name": "Education",
+          "title": {
+            "default": "What is the highest level of education you have completed?",
+            "de": "Was ist der höchste Bildungsabschluss, den Sie abgeschlossen haben?"
+          },
+          "choices": [
+            {
+              "value": "HighSchool",
+              "text": {
+                "default": "High school diploma or equivalent",
+                "de": "Abitur oder gleichwertiger Abschluss"
+              }
+            },
+            {
+              "value": "CollegeNoDegree",
+              "text": {
+                "default": "Some college, no degree",
+                "de": "Hochschulstudium ohne Abschluss"
+              }
+            },
+            {
+              "value": "AssociateDegree",
+              "text": {
+                "default": "Associate degree / Vocational training",
+                "de": "Associate Degree / Berufsausbildung"
+              }
+            },
+            {
+              "value": "Bachelor",
+              "text": {
+                "default": "Bachelor's degree",
+                "de": "Bachelor-Abschluss"
+              }
+            },
+            {
+              "value": "Master",
+              "text": {
+                "default": "Master’s degree",
+                "de": "Master-Abschluss"
+              }
+            },
+            {
+              "value": "Doctor",
+              "text": {
+                "default": "Doctoral or professional degree (e.g., PhD, MD)",
+                "de": "Doktorgrad oder Berufsabschluss (z.B. PhD, MD)"
+              }
+            },
+            {
+              "value": "NA",
+              "text": {
+                "default": "Prefer not to say",
+                "de": "Möchte ich nicht sagen"
+              }
+            }
+          ],
+          "choicesOrder": "random"
+        },
+        {
+          "type": "radiogroup",
+          "name": "HON1",
+          "title": {
+            "default": "Do you feel that you paid attention, avoided distractions, and took the survey seriously? Please answer honestly. Your answer will not affect your compensation.",
+            "de": "Haben Sie das Gefühl, dass Sie aufmerksam waren, Ablenkungen vermieden und die Umfrage ernst genommen haben? Bitte antworten Sie ehrlich. Ihre Antwort hat keinen Einfluss auf Ihre Vergütung."
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "5",
+              "text": {
+                "default": "Yes",
+                "de": "Ja"
+              }
+            },
+            {
+              "value": "4",
+              "text": {
+                "default": "No, something else affected my participation negatively",
+                "de": "Nein, etwas anderes hat meine Teilnahme negativ beeinflusst"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "No, I didn’t take the study seriously",
+                "de": "Nein, ich habe die Studie nicht ernst genommen"
+              }
+            },
+            {
+              "value": "2",
+              "text": {
+                "default": "No, I had trouble paying attention",
+                "de": "Nein, ich hatte Schwierigkeiten, aufmerksam zu sein"
+              }
+            },
+            {
+              "value": "1",
+              "text": {
+                "default": "No, I was distracted",
+                "de": "Nein, ich war abgelenkt"
+              }
+            }
+          ],
+          "choicesOrder": "random"
+        },
+        {
+          "type": "checkbox",
+          "name": "ManipulationCheck",
+          "title": {
+            "default": "In the beginning of the experiment you selected an AI model. Which information about the model did you receive? (Multiple answers possible)",
+            "de": "Zu Beginn des Experiments haben Sie ein KI-Modell ausgewählt. Welche Informationen haben Sie über das Modell erhalten? (Mehrfachauswahl möglich)"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Performance",
+              "text": {
+                "default": "Information about the performance",
+                "de": "Informationen zur Leistung"
+              }
+            },
+            {
+              "value": "EnergyEfficiency",
+              "text": {
+                "default": "Information about the energy-efficiency",
+                "de": "Informationen zur Energieeffizienz"
+              }
+            },
+            {
+              "value": "Development",
+              "text": {
+                "default": "Information about the developer",
+                "de": "Informationen zum Entwickler"
+              }
+            },
+            {
+              "value": "Ehtics",
+              "text": {
+                "default": "Information about ethical aspects",
+                "de": "Informationen zu ethischen Aspekten"
+              }
+            },
+            {
+              "value": "Contact",
+              "text": {
+                "default": "Information about the weather forecast",
+                "de": "Informationen zur Wettervorhersage"
+              }
+            }
+          ],
+          "choicesOrder": "random"
+        },
+        {
+          "type": "comment",
+          "name": "OpenText",
+          "title": {
+            "default": "Do you have any questions or remarks regarding this study?",
+            "de": "Haben Sie Fragen oder Anmerkungen zu dieser Studie?"
+          }
+        }
+      ]
+    }
+  ],
+  "showProgressBar": true,
+  "progressBarType": "questions",
+  "pagePrevText": {
+    "default": "Back",
+    "de": "Zurück"
+  },
+  "pageNextText": {
+    "default": "Forward",
+    "de": "Weiter"
+  },
+  "completeText": {
+    "default": "Complete",
+    "de": "Abschließen"
+  }
+}
