@@ -1,6 +1,6 @@
 # Overview
 
-This repository is a replication package for our ACM CHI 2026 Paper "Good for the Planet, Bad for Me?" [LINK](10.1145/3772318.3791015)
+This repository is a replication package for our ACM CHI 2026 Paper "Good for the Planet, Bad for Me?" [LINK](https://doi.org/10.1145/3772318.3791015)
 
 
 ## Setup Instructions
